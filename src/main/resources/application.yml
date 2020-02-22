@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: "kafka1:9092"
+      bindings:
+        outgoingStream:
+          destination: Topic2
+        incomingStream:
+          destination: Topic1
