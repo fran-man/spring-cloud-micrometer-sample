@@ -9,3 +9,5 @@ spring:
           destination: Topic2
         incomingStream:
           destination: Topic1
+        applicationMetrics:
+          destination: AppMetrics2
