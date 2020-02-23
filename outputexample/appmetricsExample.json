@@ -1,0 +1,573 @@
+[
+  {
+    "topic": "AppMetrics2",
+    "key": null,
+    "value": {
+      "name": "application",
+      "createdTime": "2020-02-23T13:12:02.144Z",
+      "properties": {},
+      "metrics": [
+        {
+          "id": {
+            "name": "spring.integration.send",
+            "tags": [
+              {
+                "key": "exception",
+                "value": "none"
+              },
+              {
+                "key": "name",
+                "value": "outgoingStream"
+              },
+              {
+                "key": "result",
+                "value": "success"
+              },
+              {
+                "key": "type",
+                "value": "channel"
+              }
+            ],
+            "type": "TIMER",
+            "description": "Send processing time",
+            "baseUnit": "milliseconds",
+            "tagsAsIterable": [
+              {
+                "key": "exception",
+                "value": "none"
+              },
+              {
+                "key": "name",
+                "value": "outgoingStream"
+              },
+              {
+                "key": "result",
+                "value": "success"
+              },
+              {
+                "key": "type",
+                "value": "channel"
+              }
+            ]
+          },
+          "timestamp": "2020-02-23T13:12:02.144Z",
+          "sum": 91.0287,
+          "count": 130,
+          "mean": 0.7002207692307693,
+          "upper": 51.415,
+          "total": 91.0287
+        },
+        {
+          "id": {
+            "name": "http.server.requests",
+            "tags": [
+              {
+                "key": "exception",
+                "value": "None"
+              },
+              {
+                "key": "method",
+                "value": "GET"
+              },
+              {
+                "key": "outcome",
+                "value": "SUCCESS"
+              },
+              {
+                "key": "status",
+                "value": "200"
+              },
+              {
+                "key": "uri",
+                "value": "/send"
+              }
+            ],
+            "type": "TIMER",
+            "description": null,
+            "baseUnit": "milliseconds",
+            "tagsAsIterable": [
+              {
+                "key": "exception",
+                "value": "None"
+              },
+              {
+                "key": "method",
+                "value": "GET"
+              },
+              {
+                "key": "outcome",
+                "value": "SUCCESS"
+              },
+              {
+                "key": "status",
+                "value": "200"
+              },
+              {
+                "key": "uri",
+                "value": "/send"
+              }
+            ]
+          },
+          "timestamp": "2020-02-23T13:12:02.144Z",
+          "sum": 1501.6324,
+          "count": 4,
+          "mean": 375.4081,
+          "upper": 531.3892,
+          "total": 1501.6324
+        },
+        {
+          "id": {
+            "name": "jvm.gc.pause",
+            "tags": [
+              {
+                "key": "action",
+                "value": "end of minor GC"
+              },
+              {
+                "key": "cause",
+                "value": "G1 Evacuation Pause"
+              }
+            ],
+            "type": "TIMER",
+            "description": "Time spent in GC pause",
+            "baseUnit": "milliseconds",
+            "tagsAsIterable": [
+              {
+                "key": "action",
+                "value": "end of minor GC"
+              },
+              {
+                "key": "cause",
+                "value": "G1 Evacuation Pause"
+              }
+            ]
+          },
+          "timestamp": "2020-02-23T13:12:02.144Z",
+          "sum": 11,
+          "count": 1,
+          "mean": 11,
+          "upper": 11,
+          "total": 11
+        }
+      ],
+      "interval": 60000
+    },
+    "partition": 0,
+    "offset": 0,
+    "$$hashKey": "object:94"
+  },
+  {
+    "topic": "AppMetrics2",
+    "key": null,
+    "value": {
+      "name": "application",
+      "createdTime": "2020-02-23T13:13:02.143Z",
+      "properties": {},
+      "metrics": [
+        {
+          "id": {
+            "name": "spring.integration.send",
+            "tags": [
+              {
+                "key": "exception",
+                "value": "none"
+              },
+              {
+                "key": "name",
+                "value": "outgoingStream"
+              },
+              {
+                "key": "result",
+                "value": "success"
+              },
+              {
+                "key": "type",
+                "value": "channel"
+              }
+            ],
+            "type": "TIMER",
+            "description": "Send processing time",
+            "baseUnit": "milliseconds",
+            "tagsAsIterable": [
+              {
+                "key": "exception",
+                "value": "none"
+              },
+              {
+                "key": "name",
+                "value": "outgoingStream"
+              },
+              {
+                "key": "result",
+                "value": "success"
+              },
+              {
+                "key": "type",
+                "value": "channel"
+              }
+            ]
+          },
+          "timestamp": "2020-02-23T13:13:02.143Z",
+          "sum": 0,
+          "count": 0,
+          "mean": 0,
+          "upper": 51.415,
+          "total": 0
+        },
+        {
+          "id": {
+            "name": "spring.integration.send",
+            "tags": [
+              {
+                "key": "exception",
+                "value": "none"
+              },
+              {
+                "key": "name",
+                "value": "applicationMetrics"
+              },
+              {
+                "key": "result",
+                "value": "success"
+              },
+              {
+                "key": "type",
+                "value": "channel"
+              }
+            ],
+            "type": "TIMER",
+            "description": "Send processing time",
+            "baseUnit": "milliseconds",
+            "tagsAsIterable": [
+              {
+                "key": "exception",
+                "value": "none"
+              },
+              {
+                "key": "name",
+                "value": "applicationMetrics"
+              },
+              {
+                "key": "result",
+                "value": "success"
+              },
+              {
+                "key": "type",
+                "value": "channel"
+              }
+            ]
+          },
+          "timestamp": "2020-02-23T13:13:02.143Z",
+          "sum": 17.2428,
+          "count": 1,
+          "mean": 17.2428,
+          "upper": 17.2428,
+          "total": 17.2428
+        },
+        {
+          "id": {
+            "name": "http.server.requests",
+            "tags": [
+              {
+                "key": "exception",
+                "value": "None"
+              },
+              {
+                "key": "method",
+                "value": "GET"
+              },
+              {
+                "key": "outcome",
+                "value": "SUCCESS"
+              },
+              {
+                "key": "status",
+                "value": "200"
+              },
+              {
+                "key": "uri",
+                "value": "/send"
+              }
+            ],
+            "type": "TIMER",
+            "description": null,
+            "baseUnit": "milliseconds",
+            "tagsAsIterable": [
+              {
+                "key": "exception",
+                "value": "None"
+              },
+              {
+                "key": "method",
+                "value": "GET"
+              },
+              {
+                "key": "outcome",
+                "value": "SUCCESS"
+              },
+              {
+                "key": "status",
+                "value": "200"
+              },
+              {
+                "key": "uri",
+                "value": "/send"
+              }
+            ]
+          },
+          "timestamp": "2020-02-23T13:13:02.143Z",
+          "sum": 0,
+          "count": 0,
+          "mean": 0,
+          "upper": 531.3892,
+          "total": 0
+        },
+        {
+          "id": {
+            "name": "jvm.gc.pause",
+            "tags": [
+              {
+                "key": "action",
+                "value": "end of minor GC"
+              },
+              {
+                "key": "cause",
+                "value": "G1 Evacuation Pause"
+              }
+            ],
+            "type": "TIMER",
+            "description": "Time spent in GC pause",
+            "baseUnit": "milliseconds",
+            "tagsAsIterable": [
+              {
+                "key": "action",
+                "value": "end of minor GC"
+              },
+              {
+                "key": "cause",
+                "value": "G1 Evacuation Pause"
+              }
+            ]
+          },
+          "timestamp": "2020-02-23T13:13:02.143Z",
+          "sum": 0,
+          "count": 0,
+          "mean": 0,
+          "upper": 11,
+          "total": 0
+        }
+      ],
+      "interval": 60000
+    },
+    "partition": 0,
+    "offset": 1,
+    "$$hashKey": "object:95"
+  },
+  {
+    "topic": "AppMetrics2",
+    "key": null,
+    "value": {
+      "name": "application",
+      "createdTime": "2020-02-23T13:14:02.143Z",
+      "properties": {},
+      "metrics": [
+        {
+          "id": {
+            "name": "spring.integration.send",
+            "tags": [
+              {
+                "key": "exception",
+                "value": "none"
+              },
+              {
+                "key": "name",
+                "value": "outgoingStream"
+              },
+              {
+                "key": "result",
+                "value": "success"
+              },
+              {
+                "key": "type",
+                "value": "channel"
+              }
+            ],
+            "type": "TIMER",
+            "description": "Send processing time",
+            "baseUnit": "milliseconds",
+            "tagsAsIterable": [
+              {
+                "key": "exception",
+                "value": "none"
+              },
+              {
+                "key": "name",
+                "value": "outgoingStream"
+              },
+              {
+                "key": "result",
+                "value": "success"
+              },
+              {
+                "key": "type",
+                "value": "channel"
+              }
+            ]
+          },
+          "timestamp": "2020-02-23T13:14:02.143Z",
+          "sum": 56.682298,
+          "count": 217,
+          "mean": 0.2612087465437788,
+          "upper": 51.415,
+          "total": 56.682298
+        },
+        {
+          "id": {
+            "name": "spring.integration.send",
+            "tags": [
+              {
+                "key": "exception",
+                "value": "none"
+              },
+              {
+                "key": "name",
+                "value": "applicationMetrics"
+              },
+              {
+                "key": "result",
+                "value": "success"
+              },
+              {
+                "key": "type",
+                "value": "channel"
+              }
+            ],
+            "type": "TIMER",
+            "description": "Send processing time",
+            "baseUnit": "milliseconds",
+            "tagsAsIterable": [
+              {
+                "key": "exception",
+                "value": "none"
+              },
+              {
+                "key": "name",
+                "value": "applicationMetrics"
+              },
+              {
+                "key": "result",
+                "value": "success"
+              },
+              {
+                "key": "type",
+                "value": "channel"
+              }
+            ]
+          },
+          "timestamp": "2020-02-23T13:14:02.143Z",
+          "sum": 0.2667,
+          "count": 1,
+          "mean": 0.2667,
+          "upper": 17.2428,
+          "total": 0.2667
+        },
+        {
+          "id": {
+            "name": "http.server.requests",
+            "tags": [
+              {
+                "key": "exception",
+                "value": "None"
+              },
+              {
+                "key": "method",
+                "value": "GET"
+              },
+              {
+                "key": "outcome",
+                "value": "SUCCESS"
+              },
+              {
+                "key": "status",
+                "value": "200"
+              },
+              {
+                "key": "uri",
+                "value": "/send"
+              }
+            ],
+            "type": "TIMER",
+            "description": null,
+            "baseUnit": "milliseconds",
+            "tagsAsIterable": [
+              {
+                "key": "exception",
+                "value": "None"
+              },
+              {
+                "key": "method",
+                "value": "GET"
+              },
+              {
+                "key": "outcome",
+                "value": "SUCCESS"
+              },
+              {
+                "key": "status",
+                "value": "200"
+              },
+              {
+                "key": "uri",
+                "value": "/send"
+              }
+            ]
+          },
+          "timestamp": "2020-02-23T13:14:02.143Z",
+          "sum": 2292.9826,
+          "count": 3,
+          "mean": 764.3275333333333,
+          "upper": 1581.6087,
+          "total": 2292.9826
+        },
+        {
+          "id": {
+            "name": "jvm.gc.pause",
+            "tags": [
+              {
+                "key": "action",
+                "value": "end of minor GC"
+              },
+              {
+                "key": "cause",
+                "value": "G1 Evacuation Pause"
+              }
+            ],
+            "type": "TIMER",
+            "description": "Time spent in GC pause",
+            "baseUnit": "milliseconds",
+            "tagsAsIterable": [
+              {
+                "key": "action",
+                "value": "end of minor GC"
+              },
+              {
+                "key": "cause",
+                "value": "G1 Evacuation Pause"
+              }
+            ]
+          },
+          "timestamp": "2020-02-23T13:14:02.143Z",
+          "sum": 0,
+          "count": 0,
+          "mean": 0,
+          "upper": 0,
+          "total": 0
+        }
+      ],
+      "interval": 60000
+    },
+    "partition": 0,
+    "offset": 2,
+    "$$hashKey": "object:96"
+  }
+]
